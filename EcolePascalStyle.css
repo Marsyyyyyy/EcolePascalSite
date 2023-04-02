@@ -1,0 +1,65 @@
+body {
+padding-left: 16em;
+color: #ffffff;
+background-color: #7d00b3
+}
+h2.navbar_headline {
+position: fixed;
+top: 0em;
+left: 0em;
+width: 9em;
+}
+ul.navbar {
+position: fixed;
+top: 3em;
+left: 0em;
+width: 9em;
+height: 30px;
+margin: 0;
+padding: 0;
+}
+.navbar li:hover ul{ 
+display: block; 
+}
+.navbar li {
+float: left;  
+position: relative;
+}
+.navbar ul li { 
+float: none; 
+}
+.navbar ul {
+display: none;
+position: absolute;
+top: 100%;
+margin: 0;
+padding: 0;
+}
+ul.navbar_education {
+position: relative;
+top: 0em;
+left : 1em;
+width: 9em; 
+}
+ol.classical_literature {
+  list-style-type: upper-roman
+}
+ol.IT_literature {
+  list-style-type: upper-roman
+}
+.author {
+  text-transform:uppercase
+}
+.title {
+  font-style: italic
+}
+hr {
+  border: none;
+  background-color: #E2E8E4;
+  color: #E2E8E4;
+  height: 4px
+}
+
+@media print {
+h2.navbar_headline, ul.navbar, ul.navbar_education{display:none}
+}
