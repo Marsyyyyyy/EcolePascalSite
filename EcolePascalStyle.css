@@ -1,7 +1,10 @@
 body {
 padding-left: 16em;
 color: #ffffff;
-background-color: #7d00b3
+background-image: url('cool-background.png');
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;
 }
 h2.navbar_headline {
 position: fixed;
